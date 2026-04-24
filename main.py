@@ -8,7 +8,7 @@ from telegram.ext import Updater, CommandHandler, CallbackQueryHandler, Callback
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 # دریافت توکن از متغیرهای محیطی رانفلر (BOT_TOKEN)
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = os.getenv("640119617:PtULW_Bcbnez8JnOzArkQVfAk1qQYXAnmuQ")
 
 def generate_sudoku():
     """ایجاد یک جدول سودوکو ساده (تعدادی از خانه‌ها پر شده)"""
